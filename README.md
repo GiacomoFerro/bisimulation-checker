@@ -4,8 +4,11 @@ An algo for bisimulation of deterministic MSF.
 PaigeAndTarjan algo implements the O(mlog(n)) algorithm to check if there exists a bisimulation.
 
 PSEUDOCODE:
+
 A binary relation B subset of states[M1]xstates[M2] is a bisimulation iff:
+
 1. initial_state of M1 and M2 are in B and
+
 2. for any state p,q of M1,M2 respectively:
          if (p,q) are in B then: 
               for any input x of M1:
