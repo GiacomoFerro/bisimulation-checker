@@ -9,7 +9,7 @@ A binary relation B subset of states[M1]xstates[M2] (where M1 and M2 are determi
 
 1. initial_state of M1 and M2 are in B and 
 
-2. for any state p,q of M1,M2 respectively:
+2. for any state (p,q) of M1 and M2 respectively:
 
          if (p,q) are in B then: 
          
