@@ -3,7 +3,7 @@ An algo for bisimulation of deterministic MSF.
 
 PaigeAndTarjan algo implements the O(mlog(n)) algorithm to check if there exists a bisimulation.
 
-PSEUDOCODE:
+PSEUDOCODE (recursive definition of bisimulation):
 
 A binary relation B subset of states[M1]xstates[M2] (where M1 and M2 are deterministic MSFs) is a bisimulation iff:
 
