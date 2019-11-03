@@ -7,9 +7,9 @@ PSEUDOCODE (recursive definition of bisimulation):
 
 A binary relation B subset of states[M1]xstates[M2] (where M1 and M2 are deterministic MSFs) is a bisimulation iff:
 
-1. initial_state of M1 and M2 are in B and 
+    initial_state of M1 and M2 are in B and 
 
-2. for any state (p,q) of M1 and M2 respectively:
+    for any state (p,q) of M1 and M2 respectively:
 
          if (p,q) are in B then: 
          
